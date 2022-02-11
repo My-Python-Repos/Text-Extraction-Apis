@@ -1,9 +1,5 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-bin/
-include/
-lib/
-lib64/
 *.py[cod]
 *$py.class
 
@@ -12,7 +8,11 @@ lib64/
 
 # Distribution / packaging
 .Python
+bin/
+include/
 build/
+lib/*
+lib64/*
 develop-eggs/
 dist/
 downloads/
